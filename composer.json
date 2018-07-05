@@ -1,6 +1,6 @@
 {
   "name": "previousnext/circular-buffer",
-  "description": "PHP lib for accessing the Australian Bureau of Meteorology (BOM) weather forecasts and observations.",
+  "description": "A PHP implementation of a Circular Buffer",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
@@ -12,9 +12,7 @@
     "php": "^7.1",
     "ext-curl": "*",
     "ext-xml": "*",
-    "guzzlehttp/guzzle": "~6.3",
-    "psr/log": "~1.0",
-    "symfony/serializer": "~3.4"
+    "psr/log": "~1.0"
   },
   "require-dev": {
     "drupal/coder": ">=8.2.12",
@@ -22,10 +20,10 @@
     "symfony/phpunit-bridge": "~3.4"
   },
   "autoload": {
-    "psr-4": {"BomWeather\\": "src/"}
+    "psr-4": {"CircularBuffer\\": "src/"}
   },
   "autoload-dev": {
-    "psr-4": {"BomWeather\\Tests\\": "tests/"}
+    "psr-4": {"CircularBuffer\\Tests\\": "tests/"}
   },
   "config": {
     "bin-dir": "bin/",
