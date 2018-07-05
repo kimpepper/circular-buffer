@@ -1,8 +1,8 @@
-# BOM Weather
+# Circular Buffer
 
 A PHP implementation of a [Circular Buffer](https://en.wikipedia.org/wiki/Circular_buffer)
 
-[![CircleCI](https://circleci.com/gh/previousnext/circular-buffer.svg?style=svg)](https://circleci.com/gh/previousnext/circular-buffer)
+[![CircleCI](https://circleci.com/gh/kimpepper/circular-buffer.svg?style=svg)](https://circleci.com/gh/kimpepper/circular-buffer)
 
 
 ## Installation
